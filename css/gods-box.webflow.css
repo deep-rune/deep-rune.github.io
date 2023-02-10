@@ -183,7 +183,7 @@ li {
 
 .wrapper-modules {
   display: -ms-grid;
-  display: block;
+  display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -191,6 +191,10 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+}
+
+.dealers {
+  display: block;
 }
 
 .module-link {
